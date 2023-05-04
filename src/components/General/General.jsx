@@ -1,10 +1,10 @@
 import './General.css';
 
 function General() {
-  return (
+  return (          
     <div class="header">
       <div class="header_center">
-        <a class="header_logo">CampusLink</a>
+        <a class="header_logo">denys</a>
 		    <div class="header_search">
           {<img  src="/Search.svg" alt="Search" title="Search" className="Search" />}
 		    </div>
