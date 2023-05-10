@@ -36,18 +36,17 @@
 
 .header_search {
     position: absolute;
-    border-style: none;
     left: 101px;
     top: 47px;
 }
 
-.header_menu {
+/*.header_menu {
     position: absolute;
     left: 0.08%;
     right: 96.1%;
     top: 3.90%;
     bottom: 91.22%;
-}
+}*/
 
 .header_profile {
     position: absolute;

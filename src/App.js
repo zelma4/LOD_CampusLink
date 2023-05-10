@@ -3,7 +3,8 @@ import General from './components/General/General';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import SearchBox from 'react-search-box';
+import ReactDOM from "react-dom";
+
 
 function App() {
   const [index, setIndex] = useState(0);
@@ -11,7 +12,7 @@ function App() {
   const handleSelect = (selectedIndex, e) => {
     setIndex(selectedIndex);
   };
-  
+
   return (
     <div className="App">
       <General />
@@ -20,48 +21,47 @@ function App() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="1.jpg"
+          src="1.webp"
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>CampusLink</h3>
+          <p>New opportunities in communication between students</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="2.jpg"
+          src="2.jpeg"
           alt="Second slide"
         />
 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>We can do all together!</h3>
+          <p>If you have any questions or suggestions, write, we are happy to hear from you</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="3.webp"
+          src="3.jpeg"
           alt="Third slide"
         />
 
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+          <h3>Help</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            We can help you with every question you have!
           </p>
         </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-      
-      
       </div>
     </div>
-    
+  
   );
 }
 
-
+const rootElement = document.getElementById("root");
+ReactDOM.render(<App />, rootElement);
 export default App;
