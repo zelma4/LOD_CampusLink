@@ -4,7 +4,7 @@ import Search from './Search';
 
 
 function General() {
-  return (
+  return (          
     <div class="header">
       <div class="header_center">
         <a class="header_logo">CampusLink</a>

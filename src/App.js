@@ -1,11 +1,10 @@
 import './App.css';
 import General from './components/General/General';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Profile from './components/Profile/Profile'
 import React, { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import ReactDOM from "react-dom";
-
-
 function App() {
   const [index, setIndex] = useState(0);
 
@@ -15,7 +14,8 @@ function App() {
 
   return (
     <div className="App">
-      <General />
+       <Profile /> 
+      {/* <General />
       <div className='Carousel'>
       <Carousel activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
@@ -56,9 +56,8 @@ function App() {
         </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-      </div>
-    </div>
-  
+      </div>*/}
+  </div> 
   );
 }
 
