@@ -1,0 +1,23 @@
+.size {
+    background : rgb(201, 193, 188);
+    top: 0px; 
+    left: 0px; 
+    width: 432.124px;
+    height: 50.0653px;
+    padding: 4px; 
+    pointer-events: auto; 
+    justify-content: center;
+    border-radius: 20px;
+    display: flex;
+    margin-left: 10px;
+    margin-top: 40px;
+  
+  }
+
+  .text {
+    font-weight: 400; 
+   font-style: normal; color: rgb(0, 0, 0); 
+   text-decoration: none;
+
+  }
+  

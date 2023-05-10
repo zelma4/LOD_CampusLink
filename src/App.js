@@ -58,7 +58,6 @@ function App() {
       </Carousel>
       </div>*/}
   </div> 
-  
   );
 }
 
