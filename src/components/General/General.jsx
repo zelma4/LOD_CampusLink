@@ -1,4 +1,5 @@
 import './General.css';
+import React, { useState } from 'react';
 
 function General() {
   return (
@@ -6,7 +7,8 @@ function General() {
       <div class="header_center">
         <a class="header_logo">CampusLink</a>
 		    <div class="header_search">
-          {<img  src="/Search.svg" alt="Search" title="Search" className="Search" />}
+          <input type="text" value={query} onChange={handleInputChange} />
+          <button>Search</button>
 		    </div>
 		    <div class="header_menu">
           {<img  src="/menu.svg" alt="menu" title="menu" className="Menu" />}
@@ -17,6 +19,7 @@ function General() {
 		    <div class="header_messenger">
           {<img  src="/Messenger.svg" alt="Messenger" title="Messenger" className="Messenger" />}
 		    </div>
+        
       </div>
 	  </div>
   );

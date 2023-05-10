@@ -36,7 +36,7 @@
 
 .header_search {
     position: absolute;
-    
+    border-style: none;
     left: 101px;
     top: 47px;
 }
@@ -119,3 +119,4 @@
         display: none;
     }
 }
+
