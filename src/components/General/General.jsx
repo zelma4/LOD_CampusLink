@@ -7,7 +7,7 @@ function General() {
   return (          
     <div class="header">
       <div class="header_center">
-        <a class="header_logo">denys</a>
+        <a class="header_logo">CampusLink</a>
 		    <div class="header_search">
           <Search />
 		    </div>
