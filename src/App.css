@@ -1,8 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 .Carousel{
   position: absolute;
+
   width: 1046px;
   height: 200px;
-  left: 280px;
+
   top: 157px;
+  margin: 120px;
 }
 

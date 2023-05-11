@@ -1,27 +1,25 @@
+import { Carousel } from 'bootstrap';
 import './General.css';
 import React, { useState } from 'react';
-import Search from './Search';
 
 
 function General() {
   return (
-    <div class="header">
-      <div class="header_center">
-        <a class="header_logo">CampusLink</a>
-		    <div class="header_search">
-          <Search />
+    <div className="header">
+        <button className='button_logo'>
+          CampusLink
+        </button>
+		    <div className="header_search">
 		    </div>
-		    <div class="header_menu">
+		    <div className="header_menu">
 		    </div>
-		    <a href="Profile.html" class="header_profile">
-          {<img  src="/Profile.svg" alt="Profile" title="Profile" className="Profile" />}
-		    </a>
-		    <div class="header_messenger">
+		    <div className="header_profile">
+          {<img  src="./Profile.svg" alt="Profile" title="Profile" className="Profile" />}
+		    </div>
+		    <div className="header_messenger">
           {<img  src="/Messenger.svg" alt="Messenger" title="Messenger" className="Messenger" />}
 		    </div>
-        
-      </div>
-	  </div>
+    </div>
   );
 }
 

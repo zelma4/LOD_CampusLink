@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import ReactDOM from "react-dom";
-
+import BurgerMenu from './components/General/ui/BurgerMenu';
 
 function App() {
   const [index, setIndex] = useState(0);
@@ -16,6 +16,7 @@ function App() {
   return (
     <div className="App">
       <General />
+      <BurgerMenu />
       <div className='Carousel'>
       <Carousel activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
