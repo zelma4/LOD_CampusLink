@@ -6,6 +6,7 @@ import React, { useState } from 'react';
 function General() {
   return (
     <div className="header">
+      <div className="container">
         <button className='button_logo'>
           CampusLink
         </button>
@@ -19,7 +20,8 @@ function General() {
 		    <div className="header_messenger">
           {<img  src="/Messenger.svg" alt="Messenger" title="Messenger" className="Messenger" />}
 		    </div>
-    </div>
+      </div>
+    </div>  
   );
 }
 
