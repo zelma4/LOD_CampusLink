@@ -1,6 +1,6 @@
 import { slide as Menu } from 'react-burger-menu'
 import React, { useState } from 'react'
-import './BurgerMenu.css'
+import '../../../App.css';
 
 
 function BurgerMenu() {

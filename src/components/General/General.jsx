@@ -1,6 +1,7 @@
 import { Carousel } from 'bootstrap';
-import './General.css';
 import React, { useState } from 'react';
+import '../..//App.css';
+
 
 
 function General() {
@@ -11,6 +12,7 @@ function General() {
           CampusLink
         </button>
 		    <div className="header_search">
+          
 		    </div>
 		    <div className="header_menu">
 		    </div>
