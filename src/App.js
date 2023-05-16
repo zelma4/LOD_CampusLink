@@ -5,11 +5,7 @@ import React, { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import ReactDOM from "react-dom";
 import BurgerMenu from './components/General/Burger/BurgerMenu';
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
-import Root from "./routes/route";
+import Carousel from './components/General/Carousel/Carousel';
 
 const router = createBrowserRouter([
   {
