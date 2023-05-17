@@ -1,6 +1,6 @@
-import { Carousel } from 'bootstrap';
-import React, { useState } from 'react';
-import '../..//App.css';
+//import { Carousel } from 'bootstrap';
+import React from 'react';
+import './General.css';
 
 
 
