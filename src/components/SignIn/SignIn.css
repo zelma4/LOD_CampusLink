@@ -1,0 +1,59 @@
+.sign-in-button {
+  position: absolute;
+  top: 450px; /* отступ сверху */
+  left: 250px; /* отступ слева */
+  width: 200px;
+  vertical-align: middle
+}
+
+.wrapper {
+  background: rgb(215, 215, 245);
+  height: 100vh;
+}
+
+.sign-up-button {
+  position: absolute;
+  top: 390px; /* отступ сверху */
+  left: 275px; /* отступ слева */
+  vertical-align: middle;
+  width: 150px;
+}
+
+.CampusLink{
+  position: absolute;
+  font-family: 'Helvetica, Arial, sans-serif';
+  top: 75px; /* отступ сверху */
+  left: 285px; /* отступ слева */
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.CampusLink2{
+  position: absolute;
+  font-family: 'Helvetica, Arial, sans-serif';
+  font-size: 40px;
+  top: 200px; /* отступ сверху */
+  left: 130px; /* отступ слева */
+}
+
+.CampusLink3{
+  position: absolute;
+  font-family: 'Helvetica, Arial, sans-serif';
+  top: 275px; /* отступ сверху */
+  left: 175px; /* отступ слева */
+}
+
+.img-wrapper{
+  position: absolute;
+  top: 0px; /* отступ сверху */
+  left: 711px; /* отступ слева */
+  height: 100vh;
+}
+
+.img {
+  box-sizing: content-box;
+  height: 617.33px;
+  width: 568px;
+}
+
+
