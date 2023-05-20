@@ -13,24 +13,22 @@ function General() {
   return (
     <div className='header'>
       <nav>
-        <div className="center-item">
-          <button className='button_logo'>
-            CampusLink
-          </button>
+      <div className="left-item">
+        <Search />
+      </div>
+      <div className="center-item">
+        <button className='button_logo'>
+          CampusLink
+        </button>
+      </div>
+      <div className="right-item">
+        <div className="header_messenger">
+          {<img  src="/Messenger.svg" alt="Messenger" title="Messenger" className="Messenger" />}
         </div>
-        <div className="right-item">
-          <div className="header_profile">
-            {<img  src="./Profile.svg" alt="Profile" title="Profile" className="Profile" />}
-          </div>
-          <div className="header_messenger">
-            {<img  src="/Messenger.svg" alt="Messenger" title="Messenger" className="Messenger" />}
-          </div>
+        <div className="header_profile">
+          {<img  src="./Profile.svg" alt="Profile" title="Profile" className="Profile" />}
         </div>
-        <div className="left-item">
-          <div className="header_search">
-            <Search />
-          </div>
-        </div>
+      </div> 
       </nav>
       <CarouselMenu />
     </div>

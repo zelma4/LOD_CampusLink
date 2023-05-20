@@ -31,10 +31,6 @@ line-height: 38px;
 color: #FFFFFF;
 }
 
-.header_search {
-display: flex;
-}
-
 .header_profile {
 display: flex;
 padding: 10px 0px 10px 0px;

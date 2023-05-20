@@ -23,14 +23,12 @@ const Burger = () => {
 
     return(
         <div style={{width: '100%', height: '100vh'}}>
-            <nav>
                     <div className="burger-menu" onClick={updateMenu}>
                         <div className={burger_class} ></div>
                         <div className={burger_class} ></div>
                         <div className={burger_class} ></div>
                     </div>
                 <div className={menu_class}></div>
-            </nav>
         </div>
     )
 }
