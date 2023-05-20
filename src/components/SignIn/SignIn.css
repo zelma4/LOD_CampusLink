@@ -1,7 +1,7 @@
 .sign-in-button {
-  position: absolute;
-  top: 450px; /* отступ сверху */
-  left: 250px; /* отступ слева */
+  /* position: absolute;
+  top: 450px;
+  left: 250px; */
   width: 200px;
   vertical-align: middle
 }
@@ -9,51 +9,63 @@
 .wrapper {
   background: rgb(215, 215, 245);
   height: 100vh;
+  display: flex;
+  flex-direction: row;
 }
 
 .sign-up-button {
-  position: absolute;
-  top: 390px; /* отступ сверху */
-  left: 275px; /* отступ слева */
+  /* position: absolute;
+  top: 390px; 
+  left: 275px;  */
   vertical-align: middle;
   width: 150px;
 }
 
 .CampusLink{
-  position: absolute;
+  /* position: absolute; */
   font-family: 'Helvetica, Arial, sans-serif';
-  top: 75px; /* отступ сверху */
-  left: 285px; /* отступ слева */
+  /* top: 75px;
+  left: 285px; */
   font-size: 23px;
   font-weight: bold;
 }
 
 .CampusLink2{
-  position: absolute;
+  /* position: absolute; */
   font-family: 'Helvetica, Arial, sans-serif';
   font-size: 40px;
-  top: 200px; /* отступ сверху */
-  left: 130px; /* отступ слева */
+  /* top: 200px; 
+  left: 130px; */
 }
 
 .CampusLink3{
   position: absolute;
   font-family: 'Helvetica, Arial, sans-serif';
-  top: 275px; /* отступ сверху */
-  left: 175px; /* отступ слева */
+  /* top: 275px;
+  left: 175px; */
 }
 
 .img-wrapper{
-  position: absolute;
-  top: 0px; /* отступ сверху */
-  left: 711px; /* отступ слева */
-  height: 100vh;
+  height: 100vh ;
+  display: flex;
+  width: 40vw;
+  /* position: absolute;
+  top: 0px;
+  left: 711px;
+  height: 100vh; */
 }
 
 .img {
-  box-sizing: content-box;
+  /* box-sizing: content-box;
   height: 617.33px;
-  width: 568px;
+  width: 568px; */
 }
 
+.sign-in-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 60vw;
+}
 

@@ -9,6 +9,9 @@ import {
 } from "react-router-dom";
 import General from './components/General';
 import SignIn from './components/SignIn';
+import Profile from './components/Profile';
+import Students from './components/Students';
+import Subjects from './components/Subjects';
 
 const router = createBrowserRouter([
   {
@@ -16,6 +19,15 @@ const router = createBrowserRouter([
   },
   {
     path: "/general", element: <General/>
+  },
+  {
+    path: "/profile", element: <Profile />
+  },
+  {
+    path: "/students", element: <Students/>
+  },
+  {
+    path: "/subjects", element: <Subjects/>
   }
 ]);
 

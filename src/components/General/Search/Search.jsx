@@ -1,9 +1,12 @@
-import * as React from 'react';
+import React, {useState} from 'react';
 import TextField from '@mui/material/TextField';
 import Stack from '@mui/material/Stack';
 import Autocomplete from '@mui/material/Autocomplete';
 
-export default function FreeSolo() {
+
+export default function Search() {
+  const [search, setSearch] = useState('')
+  console.log(search)
   return (
     <Stack spacing={2} sx={{ width: 300 }}>
       <Autocomplete
@@ -17,8 +20,7 @@ export default function FreeSolo() {
             label="Search input"
             InputProps={{
               ...params.InputProps,
-              type: 'search',
-              
+              type: 'search', onChange: (e) => setSearch(e.target.value), value: search
             }}
           />
         )}
