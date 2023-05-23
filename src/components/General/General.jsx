@@ -12,9 +12,9 @@ function General() {
   };
   return (
     <div className='header'>
+      <Burger />
       <nav>
       <div className="left-item">
-      <Burger />
       </div>
       <div className="center-item">
         <Link to="/general">
