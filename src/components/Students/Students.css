@@ -1,0 +1,55 @@
+.back{
+    padding: 20px;
+    margin: 0;
+    background-color: rgb(147, 127, 172);
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.title_logo{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+.students_row_1{
+    display: flex;
+    border: 0px solid #5e5373;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    
+}
+.students_row_2{
+    display: flex;
+    border: 0px solid #5e5373;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.students_row_3{
+    display: flex;
+    border: 0px solid #5e5373;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.students_row_4{
+    display: flex;
+    border: 0px solid #5e5373;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.student{
+    display: flex;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 20vw;
+    height:40vh;
+    background-color: rgb(148, 148, 148);
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    font-variant: inherit;
+    text-align: center;
+
+}

@@ -1,36 +1,22 @@
-import React, {useState} from "react";
+'use strict';
+import { slide as Menu } from 'react-burger-menu'
+import React, {Component} from 'react';
 import "./Burger.css";
 
-const Burger = () => {
+export default class Burger extends React.Component {
+  showSettings (event) {
+    event.preventDefault();
+  }
 
-    // to change burger classes
-    const [burger_class, setBurgerClass] = useState("burger-bar unclicked")
-    const [menu_class, setMenuClass] = useState("menu hidden")
-    const [isMenuClicked, setIsMenuClicked] = useState(false)
-
-    // toggle burger menu change
-    const updateMenu = () => {
-        if(!isMenuClicked) {
-            setBurgerClass("burger-bar clicked")
-            setMenuClass("menu visible")
-        }
-        else {
-            setBurgerClass("burger-bar unclicked")
-            setMenuClass("menu hidden")
-        }
-        setIsMenuClicked(!isMenuClicked)
-    }
-
-    return(
-        <div style={{width: '100%', height: '100vh'}}>
-                    <div className="burger-menu" onClick={updateMenu}>
-                        <div className={burger_class} ></div>
-                        <div className={burger_class} ></div>
-                        <div className={burger_class} ></div>
-                    </div>
-                <div className={menu_class}></div>
-        </div>
-    )
+  render () {
+    // NOTE: You also need to provide styles, see https://github.com/negomi/react-burger-menu#styling
+    return (
+      <Menu>
+        <a id="General" className="menu-item" href="/general">Головна</a>
+        <a id="Students" className="menu-item" href="/students">Студенти</a>
+        <a id="Subjects" className="menu-item" href="/subjects">Предмети</a>
+        <a onClick={ this.showSettings } className="menu-item--small" href="">Settings</a>
+      </Menu>
+    );
+  }
 }
-
-export default Burger

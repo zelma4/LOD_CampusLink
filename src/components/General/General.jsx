@@ -2,7 +2,7 @@ import './General.css';
 import React, { useState } from 'react';
 import Burger from './Burger';
 import CarouselMenu from './CarouselMenu/CarouselMenu';
-import Search from "./Search/Search";
+import { Link } from 'react-router-dom';
 
 function General() {
   const [index, setIndex] = useState(0);
@@ -14,23 +14,28 @@ function General() {
     <div className='header'>
       <nav>
       <div className="left-item">
-        <Search />
+      <Burger />
       </div>
       <div className="center-item">
-        <button className='button_logo'>
-          CampusLink
-        </button>
+        <Link to="/general">
+          <button className='button_logo'>
+            CampusLink
+          </button>
+        </Link>
       </div>
       <div className="right-item">
         <div className="header_messenger">
           {<img  src="/Messenger.svg" alt="Messenger" title="Messenger" className="Messenger" />}
         </div>
         <div className="header_profile">
-          {<img  src="./Profile.svg" alt="Profile" title="Profile" className="Profile" />}
+          <Link to="/profile">
+            {<img  src="./Profile.svg" alt="Profile" title="Profile" className="Profile" />}
+          </Link>
         </div>
       </div> 
       </nav>
       <CarouselMenu />
+
     </div>
   );
 }

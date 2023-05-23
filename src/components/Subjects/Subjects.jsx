@@ -6,17 +6,7 @@ const data = [{ id: 'test-id-1', url: 'link to image1', text: 'test-text-1' }, {
 const Subjects = () => {
   return (
     <>
-    <div>Subjects</div>
-    <div>
-        {
-             data.map(el => (
-                  <div key={el.id}>
-                        <div><img src={el.url} /></div>
-                        <div>{el.text}</div>
-                  </div>   
-              ))
-         }
-    </div>
+    <h1 className="title_logo">Subjects</h1>
     </>
 
   )

@@ -29,6 +29,7 @@ font-weight: 400;
 font-size: 32px;
 line-height: 38px;
 color: #FFFFFF;
+text-decoration: none;
 }
 
 .header_profile {
@@ -42,7 +43,7 @@ margin-left: 10px;
 display: flex;
 }
 
-*,
+/* *,
 *::before,
 *::after {
 box-sizing: border-box;
@@ -115,7 +116,9 @@ font: inherit;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
 }
-}
+} */
+
+
 
 
 /* ---------------- Navbar and burger menu ------------------ */
@@ -139,6 +142,6 @@ display: flex;
 }
 .center-item{
     display: flex;
-    justify-content: center;
 }
+
 
