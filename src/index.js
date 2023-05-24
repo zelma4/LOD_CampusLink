@@ -24,13 +24,13 @@ const router = createBrowserRouter([
     path: "/profile", element: <Profile />
   },
   {
-    path: "/students", element: <Students/>
+    path: "/students/:subject", element: <Students/>
   },
   {
     path: "/subjects", element: <Subjects/>
   }
 ]);
-
+  
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
