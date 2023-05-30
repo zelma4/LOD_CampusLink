@@ -1,55 +1,83 @@
 .back{
     padding: 20px;
     margin: 0;
-    background-color: rgb(147, 127, 172);
-
-}
-.container{
+    /* background-color: #95887a; */
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    background: #DFCCBF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #987e66, #DFCCBF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #988472, #DFCCBF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
 }
 .title_logo{
     display: flex;
     justify-content: center;
     text-decoration: none;
-}
-.students_row_1{
-    display: flex;
-    border: 0px solid #5e5373;
-    justify-content: space-between;
-    padding-bottom: 20px;
     
 }
-.students_row_2{
-    display: flex;
-    border: 0px solid #5e5373;
-    justify-content: space-between;
-    padding-bottom: 20px;
-}
-.students_row_3{
-    display: flex;
-    border: 0px solid #5e5373;
-    justify-content: space-between;
-    padding-bottom: 20px;
-}
-.students_row_4{
-    display: flex;
-    border: 0px solid #5e5373;
-    justify-content: space-between;
-    padding-bottom: 20px;
-}
 
-.student{
+.students_box{
     display: flex;
-    border: 1px solid rgb(0, 0, 0);
-    border-radius: 10px;
-    width: 20vw;
-    height:40vh;
-    background-color: rgb(148, 148, 148);
-    font-size: large;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-style: oblique;
-    font-variant: inherit;
-    text-align: center;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3vh;
+    padding: 10px;
+    margin: 20px;
+    flex-direction: column;
+    width: 30rem;
+    height: 25rem;
+    background: #cb7841;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #987e66, #DFCCBF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #987e66, #DFCCBF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+.students_container{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
 
 }
+.student_image{
+    width: 20rem;
+    height: 15rem;
+    border-width: 3px;
+    object-fit: contain;
+    
+}
+.students_image:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: none;
+}
+
+.students_box > a{
+    text-decoration: none;
+    color: none;
+}
+
+.students_box > a:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: none;
+}
+
+.students_box > a:focus{
+    cursor: pointer;
+    text-decoration: none;
+    color: none;
+}
+
+.student_info{
+    height: 50px;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 400;
+}
+

@@ -3,3 +3,16 @@
     align-items: center;
     justify-content: center;
 }
+
+/* .carousel{
+    width: calc(100vw - 60px);
+    height: 80vh;
+} */
+
+.items_slide{
+    /* width: 100vw;
+    max-height: 1200px;
+    height: 80vh; */
+    object-fit: contain;
+    max-height: 80vh;
+}

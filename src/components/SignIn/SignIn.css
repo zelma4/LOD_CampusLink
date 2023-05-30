@@ -1,59 +1,50 @@
 .sign-in-button {
-  position: absolute;
-  top: 450px;
-  left: 250px;
   width: 200px;
-  vertical-align: middle
 }
 
 .wrapper {
   background: rgb(215, 215, 245);
   height: 100vh;
+  display: flex;
+}
+
+.sign-in-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+
 }
 
 .sign-up-button {
-  position: absolute;
-  top: 390px;
-  left: 275px;
-  vertical-align: middle;
   width: 150px;
 }
 
 .CampusLink{
-  position: absolute;
+  display: flex;
   font-family: 'Helvetica, Arial, sans-serif';
-  top: 75px;
-  left: 285px;
   font-size: 23px;
   font-weight: bold;
 }
 
 .CampusLink2{
-  position: absolute;
+  display: flex;
   font-family: 'Helvetica, Arial, sans-serif';
   font-size: 40px;
-  top: 200px;
-  left: 130px;
 }
 
 .CampusLink3{
-  position: absolute;
+  display: flex;
   font-family: 'Helvetica, Arial, sans-serif';
-  top: 275px;
-  left: 175px;
 }
 
 .img-wrapper{
-  position: absolute;
-  top: 0px; 
-  left: 711px;
-  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .img {
-  box-sizing: content-box;
-  height: 617.33px;
-  width: 568px;
+  display: flex;
 }
 
 

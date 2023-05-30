@@ -41,8 +41,14 @@
 .bm-item-list {
   color: #b8b7ad;
   padding: 0.8em;
+  display: flex;
+  flex-direction: column;
+  height: 50% !important;
 }
-
+.bm-item-list > a{
+  text-decoration: none;
+  color: black;
+}
 .bm-item {
   display: inline-block;
 }
@@ -50,3 +56,4 @@
 .bm-overlay {
   background: rgba(0, 0, 0, 0);
 }
+

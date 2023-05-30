@@ -1,0 +1,249 @@
+{
+	"info": {
+		"_postman_id": "07daebf8-6d60-46b7-8fdb-046ae5f72ccc",
+		"name": "Collection for CampusLink",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27580775",
+		"_collection_link": "https://lunar-zodiac-694645.postman.co/workspace/New-Team-Workspace~df41c478-df9d-435b-9fb8-c40ecb09c9c1/collection/27396092-07daebf8-6d60-46b7-8fdb-046ae5f72ccc?action=share&creator=27580775&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "localhost:4000/api/post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"Valeriy\",\r\n    \"age\":18,\r\n    \"subjects\":[\"Chemical Engineering Principles\", \"Organic Chemistry\", \"Mechanics of Materials\"],\r\n    \"email\":\"mr.valeriy07@gmail.com\",\r\n    \"photo\":\"https://thumbs.dreamstime.com/b/portrait-handsome-eighteen-year-old-boy-wood-autumn-day-year-old-teenage-boy-outside-106866597.jpg\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4000/api/post",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"post"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4000/api/getOne",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n"
+				},
+				"url": {
+					"raw": "localhost:4000/api/getOne/64651380acb1773be68f6eb6",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"getOne",
+						"64651380acb1773be68f6eb6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4000/api/getAll",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4000/api/getAll",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"getAll"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4000/api/getStudents by Subject",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4000/api/getStudents/{{Introduction to Mechanical Engineering}}",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"getStudents",
+						"{{Introduction to Mechanical Engineering}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4000/api/update",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"name\": \"Taras\",\r\n    \"age\": 21,\r\n    \"subjects\": [\r\n        \"Physics I\",\r\n        \"Introduction to Mechanical Engineering\",\r\n        \"Mechanics of Materials\"\r\n        ],\r\n    \"email\": \"tarasokey@gmail.com\",\r\n    \"photo\": \"https://i.pinimg.com/736x/1e/be/a6/1ebea662fd8faf51dd986b5f12bc2ae0.jpg\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4000/api/update/646a451e75b2bb232921e4a1",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"update",
+						"646a451e75b2bb232921e4a1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4000/api/delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4000/api/delete/64625b612f623874a4807c50",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"delete",
+						"64625b612f623874a4807c50"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "\"Advanced Calculus\"",
+			"value": "Advanced Calculus"
+		},
+		{
+			"key": "Introduction to Computer Science",
+			"value": "Introduction to Computer Science"
+		},
+		{
+			"key": "Electronic Circuits",
+			"value": "Electronic Circuits"
+		},
+		{
+			"key": "Mechanics of Materials",
+			"value": "Mechanics of Materials"
+		},
+		{
+			"key": "Architectural Design",
+			"value": "Architectural Design"
+		},
+		{
+			"key": "Organic Chemistry",
+			"value": "Organic Chemistry"
+		},
+		{
+			"key": "Physics I",
+			"value": "Physics I"
+		},
+		{
+			"key": "Civil Engineering Fundamentals",
+			"value": "Civil Engineering Fundamentals"
+		},
+		{
+			"key": "Advanced English for Engineers",
+			"value": "Advanced English for Engineers"
+		},
+		{
+			"key": "Introduction to Mechanical Engineering",
+			"value": "Introduction to Mechanical Engineering"
+		},
+		{
+			"key": "Chemical Engineering Principles",
+			"value": "Chemical Engineering Principles"
+		},
+		{
+			"key": "Introduction to Business",
+			"value": "Introduction to Business"
+		},
+		{
+			"key": "Architectural History",
+			"value": "Architectural History"
+		},
+		{
+			"key": "Mathematics for Engineering",
+			"value": "Mathematics for Engineering"
+		},
+		{
+			"key": "Data Structures and Algorithms",
+			"value": "Data Structures and Algorithms"
+		}
+	]
+}

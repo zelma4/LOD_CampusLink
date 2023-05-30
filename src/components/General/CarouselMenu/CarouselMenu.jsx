@@ -36,7 +36,7 @@ function CarouselMenu() {
           <Carousel.Item>
             <img
               className="items_slide"
-              src="3.webp"
+              src="1slide_carousel.jpeg"
               alt="Third slide"
             />
             <Carousel.Caption>

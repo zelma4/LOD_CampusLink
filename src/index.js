@@ -24,7 +24,20 @@ const router = createBrowserRouter([
     path: "/profile", element: <Profile />
   },
   {
-    path: "/students/:subject", element: <Students/>
+    path: "/students", 
+    element: <Students/>,
+    loader: ({ request }) =>
+      fetch(`${process.env.REACT_APP_BASE_URL}api/getAll`, {
+        signal: request.signal,
+      })
+  },
+  {
+    path: "/students/:subject", 
+    element: <Students/>,
+    loader: ({ request, params }) =>
+      fetch(`${process.env.REACT_APP_BASE_URL}api/getStudents/${params.subject}`, {
+        signal: request.signal,
+      })
   },
   {
     path: "/subjects", element: <Subjects/>
