@@ -18,8 +18,10 @@ function CarouselMenu() {
               alt="First slide"
             />
             <Carousel.Caption>
-              <h3>CampusLink</h3>
-              <p>New opportunities in communication between students</p>
+              <div className="about_style">
+                <h3>CampusLink</h3>
+                <p>New opportunities in communication between students</p>
+              </div>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -29,8 +31,10 @@ function CarouselMenu() {
               alt="Second slide"
             />
             <Carousel.Caption>
+            <div className="about_style">
               <h3>We can do all together!</h3>
               <p>If you have any questions or suggestions, write, we are happy to hear from you</p>
+            </div>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -40,10 +44,12 @@ function CarouselMenu() {
               alt="Third slide"
             />
             <Carousel.Caption>
+            <div className="about_style">
               <h3>Help</h3>
               <p>
                 We can help you with every question you have!
               </p>
+            </div>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>

@@ -13,17 +13,20 @@ function General() {
                 CampusLink
               </button>
             </Link>
-            <Link to="/subjects">
-              <button className='button_subjects'>
-                <div className="subject_name">Subjects</div> 
-              </button>
-            </Link>
+            
         </div>
         <div className="right-item">
-          <div className="header_messenger">
-            {<img  src="/Messenger.svg" alt="Messenger" title="Messenger" className="Messenger" />}
+        <div className="button_students">
+            <Link to="/students" >
+            {<img src="/Students.svg" alt="Students" title="Students" className='students' />}
+            </Link>
           </div>
-          <div className="header_profile">
+          <div className='button_subjects'>
+            <Link to="/subjects">
+                {<img  src="/Subjects.svg" alt="Subjects" title="Subjects" className="subjects" />}
+            </Link>
+          </div>
+          <div className="button_profile">
             <Link to="/profile">
               {<img  src="./Profile.svg" alt="Profile" title="Profile" className="Profile" />}
             </Link>

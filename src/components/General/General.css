@@ -7,7 +7,9 @@
 .header{
 display: flex;
 flex-direction: column;
-background-color: #756b61;
+background: #645B52;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #645B52, #9a8478);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #645B52, #9a8478); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 padding: 20px 20px;
 width: 100%;
 height: 100vh;
@@ -27,47 +29,57 @@ line-height: 38px;
 color: #FFFFFF;
 }
 
-.header_profile {
+.button_profile {
 display: flex;
 padding: 10px 0px 10px 0px;
 margin-right: auto;
 margin-left: 10px;
 }
 
-.header_messenger {
-display: flex;
-}
-
 /* ---------------- Navbar and burger menu ------------------ */
 nav {
-width: 100%;
-height: 5em;
-background-color: rgb(100, 91, 82);
-display: flex;
-align-items: center;
-padding: 1em;
-border-radius: 10px;
-flex-direction: row;
-justify-content: space-between;
-margin-bottom: 30px;
+    width: 100%;
+    height: 5em;
+    background-color: rgb(100, 91, 82);
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    border-radius: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
 }
 
 .button_subjects{
     display: flex;
-    padding: 5px 20px;
-    background-color: rgba(255, 255, 255, 0);
-    border: 0px solid white;
-    border-radius: 21px;
-    font-family: 'Aleo';
-    font-style:inherit;
-    font-size: 26px;
-    line-height: 38px;
-    color: #FFFFFF;
-    text-decoration: none;
+    height: 46px;
+    width: 46px;
+    padding: 15px 0px 10px 0px;
+    margin-right: auto;
+    margin-left: 10px;
 }
 
-.subject_name{
-    text-decoration: underline;
+.subjects{
+    display: flex;
+    height: 46px;
+    width: 46px;
+}
+
+.button_students{
+    display: flex;
+    height: 46px;
+    width: 46px;
+    padding: 15px 0px 10px 0px;
+    margin-right: auto;
+    margin-left: 10px;
+}
+
+.students{
+     display: flex;
+    height: 46px;
+    width: 46px;
 }
 
 .right-item{
