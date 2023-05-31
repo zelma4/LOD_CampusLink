@@ -1,0 +1,55 @@
+.subject-card {
+    background-color: #c0c0c0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 250px;
+    animation: fade-in 0.5s ease-in-out;
+    margin-left: 25px;
+    color: rgb(0, 0, 0);
+  
+}
+
+.back {
+    padding: 20px;
+    margin: 0;
+    /* background-color: #95887a; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: #c0c0c0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #888888, #c0c0c0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #888888, #c0c0c0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-decoration: none;
+
+}
+
+.icon{
+  display: flex;
+  justify-content: center
+}
+  
+.name{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+  
+.credits{
+  display: flex;
+  justify-content: center
+}
+
+.lecturer{
+  display: flex;
+  justify-content: center
+}
+
+.depatment{
+  display: flex;
+  justify-content: center
+}
+  
+    
+  

@@ -1,4 +1,5 @@
 import React from 'react'
+import "./Subjects.css"
 import {subjects} from '../constants'
 import { Link } from 'react-router-dom'
 
@@ -6,13 +7,18 @@ import { Link } from 'react-router-dom'
 
 const Subjects = () => {
   return (
-    <div>
+    <div className='back'>
       {
         subjects.map((el, index) => (
-          <Link to={`/students/${el.name}`} >
-          <div key={index}>
-            <div>{el.icon}</div>
-            <div>{el.name}</div>
+          <Link to={`/students/${el.name}`} style={{textDecoration: 'none'}}>
+          <div className='subject-card' key={index}>
+            <div>
+                <div className='icon'>{el.icon}</div>
+                <div className='name'>{el.name}</div>
+                <div className='credits'>{el.credits}</div>
+                <div className='lecturer'>{el.lecturer}</div>
+                <div className='depatment'>{el.department}</div>
+            </div>
           </div>   
           </Link>
         ))

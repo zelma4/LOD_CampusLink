@@ -1,7 +1,18 @@
 .App {
     text-align: center;
   }
-  
+
+.back{
+  padding: 20px;
+    margin: 0;
+    /* background-color: #95887a; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: #DFCCBF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #987e66, #DFCCBF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #988472, #DFCCBF);
+}
   .subject-cards {
     display: flex;
     justify-content: center;

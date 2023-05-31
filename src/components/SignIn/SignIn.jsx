@@ -7,6 +7,11 @@ const SignIn = () => {
     return (
       <div className="wrapper">
         <div className='sign-in-wrapper'>
+           <h1 className="CampusLink">CampusLink</h1>
+          <h2 className="CampusLink2">Say Hello To Coeducation</h2>
+          <span className="CampusLink3">
+            Alone we can do so little, together we can do so much
+          </span>
           <Link to="general">
             <Button variant="outline-secondary" className="sign-in-button">
               SIGN IN
@@ -15,11 +20,7 @@ const SignIn = () => {
               SIGN UP
             </Button>
           </Link>
-          <h1 className="CampusLink">CampusLink</h1>
-          <h2 className="CampusLink2">Say Hello To Coeducation</h2>
-          <span className="CampusLink3">
-            Alone we can do so little, together we can do so much
-          </span>
+         
         </div>
         <div className="img-wrapper">
           <img  src="/12.jpg"alt="12"

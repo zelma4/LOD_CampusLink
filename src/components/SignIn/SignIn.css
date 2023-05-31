@@ -1,4 +1,5 @@
 .sign-in-button {
+  margin-left: 30px;
   width: 200px;
 }
 
@@ -8,20 +9,25 @@
   display: flex;
 }
 
-.sign-in-wrapper{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  
 
+.sign-in-wrapper{
+  
+  display: flex;
+
+  margin-top: 200px;
+  margin-left: 150px;
+  flex-direction: column;
 }
 
 .sign-up-button {
   width: 150px;
+  margin-left: 10px;
 }
 
 .CampusLink{
   display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: 'Helvetica, Arial, sans-serif';
   font-size: 23px;
   font-weight: bold;
@@ -29,22 +35,24 @@
 
 .CampusLink2{
   display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: 'Helvetica, Arial, sans-serif';
   font-size: 40px;
 }
 
 .CampusLink3{
   display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: 'Helvetica, Arial, sans-serif';
 }
 
 .img-wrapper{
-  display: flex;
-  justify-content: flex-end;
+  position: fixed;
+  left: 750px;
 }
 
-.img {
-  display: flex;
-}
+
 
 
