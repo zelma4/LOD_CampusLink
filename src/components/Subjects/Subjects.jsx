@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 
 const Subjects = () => {
   return (
-    <div className='back'>
+    <div className='back_subjects'>
       {
         subjects.map((el, index) => (
           <Link to={`/students/${el.name}`} style={{textDecoration: 'none'}}>
