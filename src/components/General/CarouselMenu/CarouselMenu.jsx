@@ -14,7 +14,7 @@ function CarouselMenu() {
           <Carousel.Item>
             <img
               className="items_slide"
-              src="1.webp"
+              src="item_slide1.JPG"
               alt="First slide"
             />
             <Carousel.Caption>
@@ -27,7 +27,7 @@ function CarouselMenu() {
           <Carousel.Item>
             <img
               className="items_slide"
-              src="2.jpeg"
+              src="item_slide3.JPG"
               alt="Second slide"
             />
             <Carousel.Caption>

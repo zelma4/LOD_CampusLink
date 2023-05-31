@@ -28,7 +28,7 @@
     padding: 10px;
     margin: 20px;
     flex-direction: column;
-    width: 30rem;
+    /* width: 30rem; */
     height: 25rem;
     background: #cb7841;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to top, #987e66, #DFCCBF);  /* Chrome 10-25, Safari 5.1-6 */
@@ -38,7 +38,7 @@
     
 }
 .students_container{
-    padding: 10px;
+    /* padding: 10px; */
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -56,6 +56,10 @@
     cursor: pointer;
     text-decoration: none;
     color: none;
+}
+
+.student_image_box{
+    margin:15px;
 }
 
 .students_box > a{

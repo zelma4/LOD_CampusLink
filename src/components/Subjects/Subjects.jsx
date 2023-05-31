@@ -15,9 +15,9 @@ const Subjects = () => {
             <div>
                 <div className='icon'>{el.icon}</div>
                 <div className='name'>{el.name}</div>
-                <div className='credits'>{el.credits}</div>
+                {/* <div className='credits'>{el.credits}</div>
                 <div className='lecturer'>{el.lecturer}</div>
-                <div className='depatment'>{el.department}</div>
+                <div className='depatment'>{el.department}</div> */}
             </div>
           </div>   
           </Link>

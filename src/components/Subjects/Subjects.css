@@ -1,39 +1,54 @@
 .subject-card {
+    display: flex;
+    justify-content: center;
     background-color: #c0c0c0;
-    border-radius: 5px;
+    border-radius: 18px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin: 10px;
     padding: 20px;
     width: 250px;
     animation: fade-in 0.5s ease-in-out;
-    margin-left: 25px;
+    /* margin-left: 25px; */
     color: rgb(0, 0, 0);
+    min-height: 240px;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
   
 }
 
 .back_subjects {
-    padding: 20px;
-    margin: 0;
+    /* padding: 20px; */
+    /* margin: 0; */
     /* background-color: #95887a; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background: #c0c0c0;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #888888, #c0c0c0);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #888888, #c0c0c0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    justify-content: center;
+    align-items: center;
+    background: #DFCCBF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #987e66, #DFCCBF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #988472, #DFCCBF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     text-decoration: none;
+    min-height: 100vh;
 
 }
 
 .icon{
   display: flex;
-  justify-content: center
+  justify-content: center;
+  font-size: 70px;
+  color: whitesmoke;
+  margin-bottom: 10px;
+  
 }
   
 .name{
   text-align: center;
   display: flex;
   justify-content: center;
+  font-size: 25px;
+  color: #414141;
 }
   
 .credits{

@@ -13,7 +13,6 @@ function General() {
                 CampusLink
               </button>
             </Link>
-            
         </div>
         <div className="right-item">
         <div className="button_students">

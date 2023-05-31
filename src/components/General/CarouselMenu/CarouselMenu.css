@@ -7,10 +7,17 @@
 .items_slide{
     object-fit: contain;
     max-height: 80vh;
+    
 }
 
 .about_style{
     font-style: italic;
     color: rgb(84, 84, 84);
     font-weight: 500;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.344), 0 16px 28px rgba(0, 0, 0, 0.323);
+    text-shadow: 0 0 12px rgba(0, 0, 0, 0.454);   
+    font-family: 'Roboto', Tahoma, sans-serif;
+    letter-spacing: 1px;
+    z-index: 1;
+    overflow: hidden;   
 }
