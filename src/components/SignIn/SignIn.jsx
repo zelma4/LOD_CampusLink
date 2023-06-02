@@ -20,7 +20,6 @@ const SignIn = () => {
               SIGN UP
             </Button>
           </Link>
-         
         </div>
         <div className="img-wrapper">
           <img  src="/12.jpg"alt="12"

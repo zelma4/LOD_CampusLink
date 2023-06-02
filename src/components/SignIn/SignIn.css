@@ -3,23 +3,28 @@
   width: 200px;
 }
 
-.wrapper {
-  background: rgb(215, 215, 245);
-  height: 100vh;
-  display: flex;
+html, body{
+  height: 100%;
 }
 
+.wrapper {
+  background: rgb(215, 215, 245);
+  height: 100%;
+  display: flex;
+  
+}
 
 .sign-in-wrapper{
-  
+  position: relative;
   display: flex;
-
-  margin-top: 200px;
-  margin-left: 150px;
+  height: auto;
+  margin-top: 20%;
+  margin-left: 120px;
   flex-direction: column;
 }
 
 .sign-up-button {
+  
   width: 150px;
   margin-left: 10px;
 }
@@ -31,6 +36,7 @@
   font-family: 'Helvetica, Arial, sans-serif';
   font-size: 23px;
   font-weight: bold;
+  height: auto;
 }
 
 .CampusLink2{
@@ -39,6 +45,7 @@
   justify-content: center;
   font-family: 'Helvetica, Arial, sans-serif';
   font-size: 40px;
+  height: auto;
 }
 
 .CampusLink3{
@@ -49,10 +56,11 @@
 }
 
 .img-wrapper{
-  position: fixed;
-  left: 750px;
+  display: flex;
+  position: absolute;
+  right: 0;
+  height: 100%;
 }
-
 
 
 
