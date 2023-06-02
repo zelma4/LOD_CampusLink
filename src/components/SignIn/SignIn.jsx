@@ -5,8 +5,8 @@ import { Button } from 'react-bootstrap';
 
 const SignIn = () => {
     return (
-      <div className="wrapper">
-        <div className='sign-in-wrapper'>
+      <div className="sign-in-wrapper">
+        <div className='sign-in-container'>
            <h1 className="CampusLink">CampusLink</h1>
           <h2 className="CampusLink2">Say Hello To Coeducation</h2>
           <span className="CampusLink3">
@@ -22,8 +22,8 @@ const SignIn = () => {
           </Link>
         </div>
         <div className="img-wrapper">
-          <img  src="/12.jpg"alt="12"
-          title="12" className="img" />
+          <img  src="/12.jpg"alt="start-img"
+          title="start-img" className="start-img" />
         </div>
       </div>
     );

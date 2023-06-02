@@ -19,7 +19,7 @@ const Navbar = () => {
                 <div className="right-item">
                     <div className="button_students">
                         <Link to="/students" >
-                        {<img src="/Students.svg" alt="Students" title="Students" className='students' />}
+                            {<img src="/Students.svg" alt="Students" title="Students" className='students' />}
                         </Link>
                     </div>
                     <div className='button_subjects'>
@@ -29,7 +29,7 @@ const Navbar = () => {
                     </div>
                     <div className="button_profile">
                         <Link to="/profile">
-                        {<img  src="./Profile.svg" alt="Profile" title="Profile" className="Profile" />}
+                            {<img  src="/Profile.svg" alt="Profile" title="Profile" className="Profile" />}
                         </Link>
                     </div>
                 </div>
