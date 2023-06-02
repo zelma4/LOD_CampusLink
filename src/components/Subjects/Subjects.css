@@ -18,20 +18,30 @@
 }
 
 .back_subjects {
-    /* padding: 20px; */
+    padding: 20px;
     /* margin: 0; */
     /* background-color: #95887a; */
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     background: #DFCCBF;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, #987e66, #DFCCBF);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #988472, #DFCCBF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     text-decoration: none;
     min-height: 100vh;
 
+}
+
+.subjects_container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .icon{

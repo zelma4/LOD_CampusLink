@@ -1,14 +1,15 @@
 import "./Students.css"
 import React from 'react'
 import { useLoaderData } from 'react-router-dom'
+import Navbar from "../Navbar/Navbar"
 
 
 const Students = () => {
   const students = useLoaderData();
   return (
     <div className="back">
-      <div className="students_logo">
-        <h1 className="title_logo">Students</h1>
+      <div className="students_nav">
+        <Navbar />
       </div>
       <div className="students_container">
       {
