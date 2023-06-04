@@ -41,7 +41,18 @@ const router = createBrowserRouter([
   },
   {
     path: "/subjects", element: <Subjects/>
-  }
+  },
+  {
+    path: "/profile/:email", 
+    element: <Profile/>,
+    loader: ({ request, params }) =>
+      fetch(`${process.env.REACT_APP_BASE_URL}api/getStudentsByEmail/${params.email}`, {
+        signal: request.signal,
+      })
+  },
+  // {
+  //   path: "/profile", element: <Profile/>
+  // },
 ]);
   
 const root = ReactDOM.createRoot(document.getElementById('root'));

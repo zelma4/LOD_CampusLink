@@ -50,10 +50,12 @@
 }
 
 .contentInfo {
-  display: flex;
+  display: flex ;
   flex-direction: column;
   gap: 5rem;
   z-index: 10;
+  margin-left: 150px;
+  margin-top: 10px;
 }
 
 .profileIcon {
@@ -65,11 +67,13 @@
 .contentInfoSecond {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 3rem;
+  width: 18.75rem;
 }
 
 .humanIcon {
   width: 5rem;
+
 }
 
 .knowledgeIcon {
@@ -77,7 +81,7 @@
 }
 
 .bookIcon {
-  width: 7rem;
+ margin-left: 70px;
 }
 
 .bottomLeftSection {
@@ -91,6 +95,19 @@
   position: absolute;
   right: 0;
   bottom: 0;
+}
+.buttonsave {
+  padding: 0.75rem 1rem;
+  background-color: #FDEFE0;
+  border: solid 0.125rem rgba(0, 0, 0, 0.5);
+  border-radius: 0.25rem;
+  min-width: 18.75rem;
+  height: 3.25rem;
+  outline: none;
+  font-size: 1.25rem;
+  line-height: 1.438rem;
+  font-weight: 400;
+  box-shadow: 0px 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
 }
 
 @media screen and (max-width: 976px) {
@@ -122,6 +139,7 @@
 
   .contentItem {
     flex-direction: column-reverse;
+    width: 18.75rem;
   }
 
   .contentInfoSecond {
@@ -131,4 +149,49 @@
   .bottomRightSection {
     display: none;
   }
+}
+
+.profile_image_box {
+  width: 10px;
+}
+
+.profile_image{
+  width: 20rem;
+  height: 15rem;
+  border-width: 3px;
+  object-fit: contain;
+  
+}
+.profile_image:hover{
+  cursor: pointer;
+  text-decoration: none;
+  color: none;
+}
+
+.save_effect {
+  padding: 0.75rem 1rem;
+  background-color: #AD8B66;
+  border: solid 0.125rem rgba(0, 0, 0, 0.5);
+  border-radius: 0.25rem;
+  min-width: 18.75rem;
+  height: 3.25rem;
+  outline: none;
+  font-size: 1.25rem;
+  line-height: 1.438rem;
+  font-weight: 400;
+  box-shadow: 0px 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+}
+
+.photo_input {
+  padding: 0.75rem 1rem;
+  background-color: #FDEFE0;
+  border: solid 0.125rem rgba(0, 0, 0, 0.5);
+  border-radius: 0.25rem;
+  min-width: 19.95rem;
+  height: 5.25rem;
+  outline: none;
+  font-size: 1.25rem;
+  line-height: 1.438rem;
+  font-weight: 400;
+  box-shadow: 0px 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
 }

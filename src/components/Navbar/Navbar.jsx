@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 
 const Navbar = () => {
-  
+    const currentUserEmail= localStorage.getItem('email')
     return (
         <div className='header_nav'>
             <nav>
@@ -28,7 +28,7 @@ const Navbar = () => {
                         </Link>
                     </div>
                     <div className="button_profile">
-                        <Link to="/profile">
+                        <Link to={`/profile/${currentUserEmail}`}>  
                             {<img  src="/Profile.svg" alt="Profile" title="Profile" className="Profile" />}
                         </Link>
                     </div>

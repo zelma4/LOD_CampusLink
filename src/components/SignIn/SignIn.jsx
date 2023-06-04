@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import './SignIn.css';
-import { Button } from 'react-bootstrap';
+import { Button, InputGroup, Form } from 'react-bootstrap';
 
 
 const SignIn = () => {
@@ -20,6 +20,15 @@ const SignIn = () => {
               SIGN UP
             </Button>
           </Link>
+          <InputGroup className="mb-3">
+            <InputGroup.Text id="basic-addon1">@</InputGroup.Text>
+            <Form.Control 
+              onChange={(e) => localStorage.setItem('email', e.target.value)}
+              placeholder="Username"
+              aria-label="Username"
+              aria-describedby="basic-addon1"
+            />
+        </InputGroup>
         </div>
         <div className="img-wrapper">
           <img  src="/12.jpg"alt="start-img"
