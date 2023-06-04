@@ -39,7 +39,7 @@ const Profile = () => {
       photo: photo,
     };
 
-    fetch(`${process.env.REACT_APP_BASE_URL}api/update/646a35c275b2bb232921e47d`, {
+    fetch(`${process.env.REACT_APP_BASE_URL}api/update/:id`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json",

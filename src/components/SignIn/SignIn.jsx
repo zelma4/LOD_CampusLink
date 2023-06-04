@@ -20,15 +20,15 @@ const SignIn = () => {
               SIGN UP
             </Button>
           </Link>
-          <InputGroup className="mb-3">
+          <InputGroup className="email-input">
             <InputGroup.Text id="basic-addon1">@</InputGroup.Text>
             <Form.Control 
               onChange={(e) => localStorage.setItem('email', e.target.value)}
-              placeholder="Username"
-              aria-label="Username"
+              placeholder="Email"
+              aria-label="Email"
               aria-describedby="basic-addon1"
             />
-        </InputGroup>
+          </InputGroup>
         </div>
         <div className="img-wrapper">
           <img  src="/12.jpg"alt="start-img"
