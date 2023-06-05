@@ -21,14 +21,9 @@ const Profile = () => {
   const [email, setEmail] = useState(studentInfo?.email || "");
  
   const [subject, setSubject] = useState(studentInfo?.subjects || []);
-  const [photo, setPhoto] = useState(studentInfo?.photo || "");
+  const [photo] = useState(studentInfo?.photo || "");
 
-  const handleFileChange = (event) => {
-    const file = event.target.files[0];
-    if (file) {
-      setPhoto(URL.createObjectURL(file));
-    }
-  };
+  
 
   const saveChanges = () => {
     const data = {
