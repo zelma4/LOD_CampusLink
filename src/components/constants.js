@@ -1,4 +1,7 @@
-import { FaFlask, FaCalculator, FaMicroscope, FaLaptopCode, FaBuilding, FaChartBar, FaLanguage, FaAtom } from 'react-icons/fa';
+import { FaFlask, FaLaravel, FaCalculator, FaMicroscope, FaLaptopCode, FaBuilding, FaChartBar, FaLanguage, FaAtom, FaArchway} from 'react-icons/fa';
+import { BiMath } from "react-icons/bi";
+import { SlChemistry } from "react-icons/sl";
+import { MdEngineering, MdOutlineComputer} from "react-icons/md";
 
 export const subjects = [
   {
@@ -16,7 +19,7 @@ export const subjects = [
     credits: 4,
     lecturer: "Dr. Ivanov",
     department: "Mathematics",
-    icon: <FaCalculator />,
+    icon: <BiMath />,
     color: "#A7C957"
   },
   {
@@ -43,7 +46,7 @@ export const subjects = [
     credits: 3,
     lecturer: "Prof. Ivanova",
     department: "Architecture",
-    icon: <FaBuilding />,
+    icon: <FaArchway />,
     color: "#5E412F"
   },
   {
@@ -70,7 +73,7 @@ export const subjects = [
     credits: 3,
     lecturer: "Dr. Chernov",
     department: "Civil Engineering",
-    icon: <FaBuilding />,
+    icon: <MdEngineering />,
     color: "#8C6954"
   },
   {
@@ -88,7 +91,7 @@ export const subjects = [
     credits: 3,
     lecturer: "Dr. Popov",
     department: "Mechanical Engineering",
-    icon: <FaMicroscope />,
+    icon: <FaLaravel />,
     color: "#D13F32"
   },
   {
@@ -97,7 +100,7 @@ export const subjects = [
     credits: 4,
     lecturer: "Dr. Petrova",
     department: "Chemical Engineering",
-    icon: <FaFlask />,
+    icon: <SlChemistry />,
     color: "#4D3E3E"
   },
   {
@@ -133,7 +136,7 @@ export const subjects = [
     credits: 3,
     lecturer: "Dr. Petrov",
     department: "Computer Science",
-    icon: <FaLaptopCode />,
+    icon: <MdOutlineComputer />,
     color: "#0071C5"
     }
   ]

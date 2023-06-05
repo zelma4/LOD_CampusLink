@@ -63,7 +63,7 @@ const Profile = () => {
   };
 
   return (
-    <div className="root">
+    <div className="profile-container">
       <header className="profileHeader">
         <Link to="/general" className="profilelink">
           <div className="title">Your profile</div>
@@ -85,13 +85,6 @@ const Profile = () => {
                   className="profile_image"
                 />
               </div>
-              <input
-                id="photo-upload"
-                type="file"
-                accept="image/*"
-                onChange={handleFileChange}
-                className="photo_upload_input"
-              />
             </div>
             <div className="contentItem">
               <Input
