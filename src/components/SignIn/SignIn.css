@@ -1,6 +1,8 @@
 .sign-in-button {
   /* margin-left: 30px; */
   width: 200px;
+  border: none;
+  background-color: white;
 }
 
 .sign-in-wrapper {
@@ -23,12 +25,6 @@
   align-items:center;
   flex-direction: column;
   width: 56vw; 
-}
-
-.sign-up-button {
-  
-  width: 150px;
-  margin-left: 10px;
 }
 
 .CampusLink{
@@ -68,5 +64,6 @@
   width: 20rem;
   padding: 10px;
   color: #9796f0;
+  margin: 5px;
 }
 

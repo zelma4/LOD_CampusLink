@@ -34,7 +34,7 @@ const Profile = () => {
       photo: photo,
     };
 
-    fetch(`${process.env.REACT_APP_BASE_URL}api/update/:id`, {
+    fetch(`${process.env.REACT_APP_BASE_URL}api/update/${studentInfo._id}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json",

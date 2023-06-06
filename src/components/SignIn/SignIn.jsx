@@ -12,14 +12,6 @@ const SignIn = () => {
           <span className="CampusLink3">
             Alone we can do so little, together we can do so much
           </span>
-          <Link to="general">
-            <Button variant="outline-secondary" className="sign-in-button">
-              SIGN IN
-            </Button>
-            <Button variant="outline-secondary" className="sign-up-button">
-              SIGN UP
-            </Button>
-          </Link>
           <InputGroup className="email-input">
             <InputGroup.Text id="basic-addon1">@</InputGroup.Text>
             <Form.Control 
@@ -29,6 +21,11 @@ const SignIn = () => {
               aria-describedby="basic-addon1"
             />
           </InputGroup>
+          <Link to="general">
+            <Button variant="outline-secondary" className="sign-in-button">
+              SIGN IN
+            </Button>
+          </Link>
         </div>
         <div className="img-wrapper">
           <img  src="/12.jpg"alt="start-img"
